@@ -1,0 +1,4 @@
+#! /usr/bin/env python3
+import publisher.publisher as m
+if __name__ == '__main__':
+    m.main()
