@@ -23,8 +23,9 @@ Hah, so git is not the same things as GitHub. Git is a free and open source dist
 If you navigate to `bootcamp/src` you will find two folders listener and publisher. Each one is a standalone python (package)[https://docs.python.org/3.6/tutorial/modules.html#packages]. Your goal is to use ROS to send text messages from publisher to listener. When both "nodes" are open then by typing into publisher and pressing return I should see the message display in listener. A good place to get started is this (tutorial)[http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers] on (ros wiki)[http://wiki.ros.org/].
 
 ### Running your code
-To run publisher: `rosrun bootcamp publisher`
-To run listener: `rosrun bootcamp listener`
+1. Start ros master node `roscore`.
+2. To run publisher: `rosrun bootcamp publisher`
+3. To run listener: `rosrun bootcamp listener`
 
 ### Uploading to GitHub
 Once you finish working on your code and you test it's awesomeness it's time to share this with other people.
