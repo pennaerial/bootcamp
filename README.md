@@ -30,7 +30,10 @@ If you navigate to `bootcamp/src` you will find two folders listener and publish
 ### Uploading to GitHub
 Once you finish working on your code and you test it's awesomeness it's time to share this with other people.
 1. Make sure you have checked out your branch: `git checkout [BRANCH NAME]`.
-2. Push your code `git push`.
-3. Make a pull request on GitHub. Open the repository on GitHub and switch to your branch. Click new pull request. Good job! If I don't have any comments you're done. 
+2. View status `git status`.
+3. Stage your changes for commit. For every file that you want to upload do `git add [path]`. For example `git add src/publisher/publisher.py`.
+4. Commit your changes: `git commit -m "[DESCRIPTIVE MESSAGE]"`
+4. Push your code `git push`.
+5. Make a pull request on GitHub. Open the repository on GitHub and switch to your branch. Click new pull request. Good job! If I don't have any comments you're done. 
 
 
