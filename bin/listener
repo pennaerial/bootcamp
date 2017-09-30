@@ -1,4 +1,4 @@
 #! /usr/bin/env python2
-import publisher.publisher as m
+import listener.listener as m
 if __name__ == '__main__':
     m.main()
