@@ -20,7 +20,7 @@ Hah, so git is not the same things as GitHub. Git is a free and open source dist
 5. Push (upload) you branch to GitHub : `git push origin [BRANCH NAME]`. Git will complain a bit at this point. It will ask you to run a couple commands to set your email adress etc. Just follow what it says.
 
 ### Task
-If you navigate to `bootcamp/src` you will find two folders listener and publisher. Each one is a standalone python (package)[https://docs.python.org/3.6/tutorial/modules.html#packages]. Your goal is to use ROS to send text messages from publisher to listener. When both "nodes" are open then by typing into publisher and pressing return I should see the message display in listener. A good place to get started is this (tutorial)[http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers] on (ros wiki)[http://wiki.ros.org/].
+If you navigate to `bootcamp/src` you will find two folders listener and publisher. Each one is a standalone python (package)[https://docs.python.org/3.6/tutorial/modules.html#packages]. Your goal is to use ROS to send text messages from publisher to listener. When both "nodes" are open then by typing into publisher and pressing return I should see the message display in listener. A good place to get started is this [tutorial](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers) on [ros wiki](http://wiki.ros.org/).
 
 ### Running your code
 1. Start ros master node `roscore`.
